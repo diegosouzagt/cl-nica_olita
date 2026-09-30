@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>Olita Consultório Médico | Dra. Julie Mendes - Sinop/MT</title>
+  <meta name="description" content="Medicina Integrada, Endocrinologia, Metabologia e Tecnologias Corporais de Vanguarda (CM Slim e Deep Slim) com a Dra. Julie Mendes em Sinop - MT." />
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""/>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+  
+  <style>
+    @layer base {
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        overscroll-behavior: none;
+      }
+      main > :first-child {
+        margin-top: 0 !important;
+      }
+      main > :last-child {
+        margin-bottom: 0 !important;
+      }
+    }
+    ::-webkit-scrollbar {
+      display: none;
+    }
+    /* Hide scrollbar for IE, Edge and Firefox */
+    html {
+      -ms-overflow-style: none;  /* IE and Edge */
+      scrollbar-width: none;  /* Firefox */
+    }
+  </style>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "on-surface": "#211a17",
+            "secondary-fixed-dim": "#ffb59d",
+            "on-tertiary": "#ffffff",
+            "on-error": "#ffffff",
+            "tertiary-fixed": "#ffdbca",
+            "surface-tint": "#745949",
+            "tertiary": "#73594b",
+            "primary-fixed": "#ffdbc8",
+            "on-primary-container": "#4c3527",
+            "surface-container-lowest": "#ffffff",
+            "on-secondary": "#ffffff",
+            "surface-container-low": "#fff1ec",
+            "secondary-fixed": "#ffdbd0",
+            "inverse-primary": "#e3bfac",
+            "surface-dim": "#e6d7d2",
+            "on-surface-variant": "#4f453f",
+            "surface-container-highest": "#eedfda",
+            "surface-bright": "#fff8f6",
+            "on-secondary-container": "#783c28",
+            "primary-fixed-dim": "#e3bfac",
+            "on-primary-fixed": "#2a170b",
+            "on-tertiary-fixed": "#29170d",
+            "tertiary-fixed-dim": "#e2c0af",
+            "error": "#ba1a1a",
+            "primary": "#745949",
+            "tertiary-container": "#bd9d8d",
+            "inverse-on-surface": "#fdeee8",
+            "on-primary": "#ffffff",
+            "outline": "#81746e",
+            "on-primary-fixed-variant": "#5a4133",
+            "error-container": "#ffdad6",
+            "surface": "#fff8f6",
+            "on-error-container": "#93000a",
+            "on-secondary-fixed-variant": "#703623",
+            "secondary": "#8d4d38",
+            "on-background": "#211a17",
+            "on-tertiary-fixed-variant": "#594235",
+            "surface-container": "#faebe6",
+            "background": "#fff8f6",
+            "outline-variant": "#d3c3bc",
+            "surface-variant": "#eedfda",
+            "surface-container-high": "#f4e5e0",
+            "on-secondary-fixed": "#390c01",
+            "secondary-container": "#fdaa8f",
+            "on-tertiary-container": "#4b3529",
+            "inverse-surface": "#372f2b",
+            "primary-container": "#be9d8b"
+          },
+          borderRadius: {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+          spacing: {
+            "gutter": "1.5rem",
+            "space-xs": "0.375rem",
+            "space-sm": "0.75rem",
+            "space-md": "1.25rem",
+            "margin": "3rem",
+            "space-xl": "3.5rem",
+            "space-lg": "2rem",
+            "margin-mobile": "1.25rem",
+            "gutter-mobile": "1rem"
+          },
+          fontFamily: {
+            "label-sm": ["Plus Jakarta Sans", "sans-serif"],
+            "headline-md": ["EB Garamond", "serif"],
+            "title-md": ["Plus Jakarta Sans", "sans-serif"],
+            "headline-lg": ["EB Garamond", "serif"],
+            "body-lg": ["Plus Jakarta Sans", "sans-serif"],
+            "body-sm": ["Plus Jakarta Sans", "sans-serif"],
+            "label-md": ["Plus Jakarta Sans", "sans-serif"],
+            "display-lg": ["EB Garamond", "serif"],
+            "headline-sm": ["EB Garamond", "serif"],
+            "body-md": ["Plus Jakarta Sans", "sans-serif"],
+            "headline-lg-mobile": ["EB Garamond", "serif"],
+            "display-lg-mobile": ["EB Garamond", "serif"]
+          },
+          fontSize: {
+            "label-sm": ["11px", { lineHeight: "14px", letterSpacing: "0.06em", fontWeight: "500" }],
+            "headline-md": ["28px", { lineHeight: "36px", letterSpacing: "0.01em", fontWeight: "500" }],
+            "title-md": ["18px", { lineHeight: "26px", letterSpacing: "0.01em", fontWeight: "600" }],
+            "headline-lg": ["40px", { lineHeight: "48px", letterSpacing: "0em", fontWeight: "400" }],
+            "body-lg": ["18px", { lineHeight: "28px", letterSpacing: "0em", fontWeight: "400" }],
+            "body-sm": ["13px", { lineHeight: "20px", letterSpacing: "0.01em", fontWeight: "400" }],
+            "label-md": ["12px", { lineHeight: "16px", letterSpacing: "0.08em", fontWeight: "600" }],
+            "display-lg": ["56px", { lineHeight: "64px", letterSpacing: "-0.01em", fontWeight: "400" }],
+            "headline-sm": ["22px", { lineHeight: "30px", letterSpacing: "0.01em", fontWeight: "500" }],
+            "body-md": ["15px", { lineHeight: "24px", letterSpacing: "0em", fontWeight: "400" }],
+            "headline-lg-mobile": ["30px", { lineHeight: "38px", letterSpacing: "0em", fontWeight: "400" }],
+            "display-lg-mobile": ["38px", { lineHeight: "46px", letterSpacing: "-0.01em", fontWeight: "400" }]
+          }
+        }
+      }
+    };
+  </script>
+</head>
+<body class="bg-background font-body-md text-on-surface antialiased">
+
+  <!-- HEADER -->
+  <header class="fixed top-0 left-0 right-0 z-50 bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(46,38,35,0.04)]">
+    <div class="h-20 max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between gap-6">
+      <a class="flex items-center gap-3 group" href="#">
+        <img alt="Olita Consultório Médico - Dra. Julie Mendes" class="w-10 h-10 rounded-full object-cover shadow-[0_2px_8px_rgba(46,38,35,0.08)]" src="https://lh3.googleusercontent.com/aida/AEtjO1XR6gUMTaySDVJoudOo8ULgjNT_4O_KpkKxZ14Dvae9OJw7f1GO3Vdmp0sF0zL46778qrIa1xA9A9xm7Ja75Cnw2cBSt5kIJJzucBq-ihO-six9m3KsErhn94YSutXHOR2xZUfD6Fo73Bo0XJ5OryzPC4LNxac0Loz8Gm4jc2N1TlRXho76PtqYilUyfteX3fRYz3qC-NcavkpB314eOBs-Iqj7zyzRlz3sR9tGCAB2WF4q_DqO3NjTaAmYV9lblzwEJskhlE-WaPg"/>
+        <div class="flex flex-col">
+          <span class="font-headline-sm text-headline-sm text-primary tracking-wide leading-none group-hover:text-secondary transition-colors">Olita</span>
+          <span class="font-label-sm text-label-sm text-on-surface-variant tracking-wider uppercase mt-1">Dra. Julie Mendes</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="hidden xl:flex items-center gap-7" data-active-classes="text-primary font-title-md">
+        <a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" data-path="sobre" href="#sobre">Sobre a Dra. Julie</a>
+        <a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" data-path="tecnologias-corporais" href="#tecnologias">Tecnologias Corporais</a>
+        <a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" data-path="endocrinologia-e-metabologia" href="#especialidades">Endocrinologia &amp; Metabologia</a>
+        <a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" data-path="soroterapia" href="#especialidades">Soroterapia</a>
+        <a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" data-path="duvidas" href="#duvidas">Dúvidas</a>
+        <a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" data-path="localizacao" href="#localizacao">Localização</a>
+      </nav>
+
+      <!-- Action & Profile -->
+      <div class="flex items-center gap-4">
+        <a class="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-primary hover:bg-secondary text-on-primary font-label-md text-label-md uppercase tracking-wider shadow-[0_4px_16px_-2px_rgba(116,89,73,0.3)] hover:shadow-[0_6px_20px_-2px_rgba(141,77,56,0.35)] transition-all duration-300 transform hover:-translate-y-0.5" href="https://wa.me/5566999990000?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta%20no%20Consultório%20Olita" target="_blank">
+          <span class="material-symbols-outlined text-lg leading-none">chat</span>
+          <span>Agendar Consulta</span>
+        </a>
+        <img alt="Dra. Julie Mendes" class="w-8 h-8 rounded-full object-cover hidden sm:block border border-outline-variant" src="https://lh3.googleusercontent.com/aida/AEtjO1XR6gUMTaySDVJoudOo8ULgjNT_4O_KpkKxZ14Dvae9OJw7f1GO3Vdmp0sF0zL46778qrIa1xA9A9xm7Ja75Cnw2cBSt5kIJJzucBq-ihO-six9m3KsErhn94YSutXHOR2xZUfD6Fo73Bo0XJ5OryzPC4LNxac0Loz8Gm4jc2N1TlRXho76PtqYilUyfteX3fRYz3qC-NcavkpB314eOBs-Iqj7zyzRlz3sR9tGCAB2WF4q_DqO3NjTaAmYV9lblzwEJskhlE-WaPg"/>
+
+        <!-- Mobile Menu Toggle -->
+        <button id="mobile-menu-btn" class="xl:hidden p-2 text-on-surface hover:text-primary focus:outline-none" aria-label="Abrir menu">
+          <span class="material-symbols-outlined text-2xl">menu</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Nav Dropdown -->
+    <div id="mobile-menu" class="hidden xl:hidden bg-surface border-t border-outline-variant/30 px-6 py-4 shadow-xl">
+      <div class="flex flex-col space-y-3 font-body-sm">
+        <a class="text-on-surface-variant hover:text-primary py-1 transition-colors" href="#sobre" onclick="toggleMobileMenu()">Sobre a Dra. Julie</a>
+        <a class="text-on-surface-variant hover:text-primary py-1 transition-colors" href="#tecnologias" onclick="toggleMobileMenu()">Tecnologias Corporais</a>
+        <a class="text-on-surface-variant hover:text-primary py-1 transition-colors" href="#especialidades" onclick="toggleMobileMenu()">Endocrinologia &amp; Metabologia</a>
+        <a class="text-on-surface-variant hover:text-primary py-1 transition-colors" href="#especialidades" onclick="toggleMobileMenu()">Soroterapia</a>
+        <a class="text-on-surface-variant hover:text-primary py-1 transition-colors" href="#duvidas" onclick="toggleMobileMenu()">Dúvidas Frequentes</a>
+        <a class="text-on-surface-variant hover:text-primary py-1 transition-colors" href="#localizacao" onclick="toggleMobileMenu()">Localização</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="w-full pt-20 bg-background">
+    <div class="flex flex-col w-full">
+
+      <!-- HERO SECTION -->
+      <section class="relative w-full overflow-hidden bg-surface-container-low py-12 lg:py-24">
+        <div class="max-w-7xl mx-auto px-6 lg:px-12">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+            
+            <!-- Text Column -->
+            <div class="lg:col-span-7 flex flex-col items-start space-y-6">
+              <div class="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-surface-container text-on-primary-container shadow-sm">
+                <span class="w-2 h-2 rounded-full bg-secondary animate-pulse"></span>
+                <span class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant font-medium">Medicina Integrada &amp; Tecnologias Médicas</span>
+              </div>
+              <h1 class="font-headline-lg text-headline-lg lg:text-display-lg text-on-surface leading-tight tracking-tight">
+                Medicina de Precisão &amp; <span class="italic font-headline-lg lg:text-display-lg text-primary">Tecnologias Avançadas</span> com Olhar Individual.
+              </h1>
+              <p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl leading-relaxed">
+                Abordagem médica que equilibra saúde metabólica, rigor científico e cuidado humano. Protocolos não-invasivos de vanguarda para Lipedema, tônus muscular e longevidade sustentável em Sinop - MT.
+              </p>
+              <div class="flex flex-wrap items-center gap-4 pt-2">
+                <a class="inline-flex items-center gap-3 px-8 py-4 rounded-full bg-secondary hover:bg-on-secondary-container text-on-secondary font-label-md text-label-md uppercase tracking-wider shadow-lg shadow-secondary/20 transition-all duration-300 transform hover:-translate-y-0.5" href="https://wa.me/5566999990000?text=Olá,%20gostaria%20de%20agendar%20uma%20avaliação%20médica%20no%20Consultório%20Olita" target="_blank">
+                  <span class="material-symbols-outlined text-lg">calendar_month</span>
+                  <span>Agendar Avaliação Médica</span>
+                </a>
+                <a class="inline-flex items-center gap-2 px-7 py-4 rounded-full bg-surface hover:bg-surface-container-high text-primary font-label-md text-label-md uppercase tracking-wider shadow-sm transition-all duration-300" href="#tecnologias">
+                  <span>Conhecer Tecnologias</span>
+                  <span class="material-symbols-outlined text-lg">arrow_downward</span>
+                </a>
+              </div>
+              
+              <!-- Quick Trust Metrics Grid -->
+              <div class="grid grid-cols-3 gap-6 pt-6 w-full max-w-lg">
+                <div class="flex flex-col">
+                  <span class="font-headline-md text-headline-md text-primary font-serif">30.000</span>
+                  <span class="font-label-sm text-label-sm text-on-surface-variant mt-1 leading-snug">Contrações / sessão com CM Slim</span>
+                </div>
+                <div class="flex flex-col">
+                  <span class="font-headline-md text-headline-md text-secondary font-serif">Deep Slim</span>
+                  <span class="font-label-sm text-label-sm text-on-surface-variant mt-1 leading-snug">Foco no manejo do Lipedema</span>
+                </div>
+                <div class="flex flex-col">
+                  <span class="font-headline-md text-headline-md text-primary font-serif">100%</span>
+                  <span class="font-label-sm text-label-sm text-on-surface-variant mt-1 leading-snug">Médico &amp; Personalizado</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Image & Authority Badge Column -->
+            <div class="lg:col-span-5 relative flex justify-center">
+              <div class="relative w-full max-w-md">
+                <!-- Warm Backdrop Geometric Accents -->
+                <div class="absolute -inset-4 bg-tertiary-container/20 rounded-[2.5rem] transform -rotate-2"></div>
+                <div class="absolute -inset-1 bg-surface-container rounded-[2rem] transform rotate-1"></div>
+                <!-- Doctor Main Portrait -->
+                <div class="relative rounded-[2rem] overflow-hidden shadow-2xl shadow-on-surface/10 aspect-[3/4] bg-surface">
+                  <img alt="Dra. Julie Mendes - Médica Endocrinologista e Metabologista no Olita Consultório Médico" class="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-700 ease-out" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA4ZfLvCXzlesFex7oeSZAVuoD8ecr0UtSaSmAXW6N9VJqc1O6GjrPOh4c8MA1zDqSCb4vruulGIF2yG4Ep1vbEVVBQqYmt49MC7KEtzuTBD_-NfkQjYmeyHy_UfJ18la7UJ3U2yQpp3TidOMwH1twO8U_rUvLnX54eKpFzv1Ja-XAnmuBcdRzmYou9OjN6HTz_y94zQeIDWL-eH6skgNQ7VKGPWMzVPY1i4iDOWlIGFGvE87-ZbcX5PpYIhVLtPmbrRzg"/>
+                </div>
+                <!-- Floating Credential Card -->
+                <div class="absolute -bottom-6 -left-6 sm:-left-8 bg-surface/95 backdrop-blur-md p-5 rounded-2xl shadow-xl max-w-xs flex items-center gap-4">
+                  <div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary flex-shrink-0">
+                    <span class="material-symbols-outlined text-2xl">verified</span>
+                  </div>
+                  <div>
+                    <p class="font-title-md text-title-md text-on-surface font-semibold leading-tight">Dra. Julie Mendes</p>
+                    <p class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider mt-0.5">Endocrinologia &amp; Tecnologias</p>
+                    <p class="font-body-sm text-body-sm text-secondary font-medium mt-1 text-xs">CRM Especializado • RQE Ativo</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- MANIFESTO & OLITA BRAND ESSENCE -->
+      <section class="w-full bg-surface-container py-20 lg:py-24">
+        <div class="max-w-5xl mx-auto px-6 lg:px-12 text-center flex flex-col items-center">
+          <div class="w-24 h-24 rounded-full bg-surface shadow-md p-3 mb-6 flex items-center justify-center">
+            <div class="w-full h-full rounded-full bg-primary-container/20 flex flex-col items-center justify-center text-primary">
+              <span class="font-headline-sm text-headline-sm uppercase tracking-widest font-serif leading-none">Olita</span>
+              <span class="text-[8px] uppercase tracking-widest text-on-surface-variant font-medium mt-1">Consultório</span>
+            </div>
+          </div>
+          <div class="inline-flex items-center gap-3 mb-6">
+            <span class="h-px w-8 bg-primary/40"></span>
+            <span class="font-label-md text-label-md text-primary uppercase tracking-[0.25em]">Exclusiva • Séria • Elegante</span>
+            <span class="h-px w-8 bg-primary/40"></span>
+          </div>
+          <h2 class="font-headline-lg text-headline-lg lg:text-display-lg text-on-surface leading-snug font-serif max-w-3xl">
+            "O corpo humano não deve ser tratado em partes, mas compreendido em sua <span class="italic text-primary">harmonia metabólica e funcional</span>."
+          </h2>
+          <p class="font-body-lg text-body-lg text-on-surface-variant mt-8 max-w-2xl leading-relaxed">
+            No Olita, unimos o afeto e a sensibilidade do acolhimento médico à precisão de parâmetros laboratoriais e tecnologias físicas de última geração. Aqui, seu tratamento é conduzido exclusivamente por médica especialista, priorizando sua segurança, discrição e resultados naturais duradouros.
+          </p>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-14 w-full text-left">
+            <div class="bg-surface p-8 rounded-2xl shadow-sm hover:shadow-md transition-shadow">
+              <div class="w-10 h-10 rounded-full bg-surface-container-high flex items-center justify-center text-primary mb-5">
+                <span class="material-symbols-outlined">clinical_notes</span>
+              </div>
+              <h3 class="font-title-md text-title-md text-on-surface mb-2 font-semibold">Diagnóstico Profundo</h3>
+              <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                Investigação criteriosa de resistência insulínica, inflamação subclínica, eixo hormonal e composição muscular.
+              </p>
+            </div>
+            <div class="bg-surface p-8 rounded-2xl shadow-sm hover:shadow-md transition-shadow">
+              <div class="w-10 h-10 rounded-full bg-surface-container-high flex items-center justify-center text-secondary mb-5">
+                <span class="material-symbols-outlined">device_thermostat</span>
+              </div>
+              <h3 class="font-title-md text-title-md text-on-surface mb-2 font-semibold">Tecnologia com Critério</h3>
+              <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                Equipamentos de padrão ouro (CM Slim e Deep Slim) aplicados com indicação fisiológica e supervisão contínua.
+              </p>
+            </div>
+            <div class="bg-surface p-8 rounded-2xl shadow-sm hover:shadow-md transition-shadow">
+              <div class="w-10 h-10 rounded-full bg-surface-container-high flex items-center justify-center text-primary mb-5">
+                <span class="material-symbols-outlined">spa</span>
+              </div>
+              <h3 class="font-title-md text-title-md text-on-surface mb-2 font-semibold">Cuidado Humanizado</h3>
+              <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                Consultas com tempo dedicado para ouvir sua história, suas queixas e construir um plano terapêutico viável.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SEÇÃO EM DESTAQUE MÁXIMO: TECNOLOGIAS CORPORAIS (DEEP SLIM & CM SLIM) -->
+      <section class="w-full bg-surface-bright py-20 lg:py-28 relative" id="tecnologias">
+        <div class="max-w-7xl mx-auto px-6 lg:px-12">
+          
+          <!-- Section Header -->
+          <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-16">
+            <div>
+              <span class="font-label-md text-label-md text-secondary uppercase tracking-[0.2em] font-semibold">Alta Performance Médica Não-Invasiva</span>
+              <h2 class="font-headline-lg text-headline-lg lg:text-display-lg text-on-surface mt-2 font-serif">
+                Tecnologias Corporais de Vanguarda
+              </h2>
+            </div>
+            <p class="font-body-md text-body-md text-on-surface-variant max-w-md leading-relaxed">
+              Associação estratégica de estímulo eletromagnético e ultrassom de alta profundidade para restauração funcional e estética corporal.
+            </p>
+          </div>
+
+          <!-- Sinergia Banner -->
+          <div class="bg-primary/10 rounded-2xl p-6 lg:p-8 mb-16 flex flex-col md:flex-row items-center gap-6 shadow-sm">
+            <div class="w-14 h-14 rounded-2xl bg-primary text-on-primary flex items-center justify-center flex-shrink-0 shadow-md">
+              <span class="material-symbols-outlined text-3xl">hub</span>
+            </div>
+            <div class="flex-1">
+              <span class="font-label-sm text-label-sm text-primary uppercase font-bold tracking-wider">Protocolo Combinado Olita</span>
+              <h4 class="font-title-md text-title-md text-on-surface font-semibold mt-0.5">Sinergia Tecnológica: Deep Slim + CM Slim</h4>
+              <p class="font-body-sm text-body-sm text-on-surface-variant mt-1 leading-relaxed">
+                A convergência entre a redução do tecido fibrótico/inflamatório do Lipedema (Deep Slim) e a ativação muscular supramáxima com estímulo linfático (CM Slim) potencializa os resultados clínicos sem tempo de recuperação.
+              </p>
+            </div>
+            <a class="px-6 py-3 rounded-full bg-primary hover:bg-secondary text-on-primary font-label-sm text-label-sm uppercase tracking-wider flex-shrink-0 transition-colors shadow" href="https://wa.me/5566999990000?text=Olá,%20quero%20saber%20mais%20sobre%20a%20combinação%20Deep%20Slim%20+%20CM%20Slim" target="_blank">
+              Saber Mais no WhatsApp
+            </a>
+          </div>
+
+          <!-- Two Pillar Technologies Grid -->
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+            
+            <!-- BLOCO 1: DEEP SLIM (LIPEDEMA & GORDURA PROFUNDA) -->
+            <div class="bg-surface rounded-3xl p-8 lg:p-10 shadow-lg shadow-on-surface/5 flex flex-col justify-between relative overflow-hidden group">
+              <div class="absolute -right-16 -top-16 w-56 h-56 bg-secondary-container/20 rounded-full blur-3xl pointer-events-none"></div>
+              <div>
+                <div class="flex items-center justify-between mb-6">
+                  <span class="px-4 py-1.5 rounded-full bg-secondary/15 text-secondary font-label-sm text-label-sm uppercase tracking-widest font-semibold">
+                    Ultrassom Multifocado Profundo
+                  </span>
+                  <span class="font-label-sm text-label-sm text-on-surface-variant font-mono">01 // TERAPÊUTICO</span>
+                </div>
+                <h3 class="font-headline-md text-headline-md text-on-surface font-serif">
+                  DEEP SLIM
+                </h3>
+                <p class="font-title-md text-title-md text-secondary mt-1 font-medium">
+                  Avanço Clínico no Tratamento do Lipedema e Gordura Localizada
+                </p>
+                <div class="mt-6 space-y-4">
+                  <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                    Tecnologia médica baseada em ultrassom focado de alta intensidade e profundidade que atua seletivamente sobre os adipócitos e o espessamento fibrótico do tecido celular subcutâneo. Atua de maneira direta no processo inflamatório crônico que acomete pacientes com Lipedema.
+                  </p>
+                  
+                  <!-- Benefícios para Lipedema -->
+                  <div class="bg-surface-container-low p-5 rounded-2xl space-y-3 mt-6">
+                    <span class="font-label-sm text-label-sm text-on-surface uppercase tracking-wider font-bold flex items-center gap-2">
+                      <span class="material-symbols-outlined text-secondary text-base">check_circle</span>
+                      Benefícios Clínicos no Lipedema
+                    </span>
+                    <ul class="space-y-2.5 font-body-sm text-body-sm text-on-surface-variant">
+                      <li class="flex items-start gap-2">
+                        <span class="material-symbols-outlined text-secondary text-base mt-0.5">remove</span>
+                        <span><strong>Alívio de Sintomas:</strong> Redução significativa da dor à palpação e sensação crônica de peso nas pernas.</span>
+                      </li>
+                      <li class="flex items-start gap-2">
+                        <span class="material-symbols-outlined text-secondary text-base mt-0.5">remove</span>
+                        <span><strong>Drenagem e Desinflamação:</strong> Melhora substancial da circulação microvascular e atenuação do edema subcutâneo.</span>
+                      </li>
+                      <li class="flex items-start gap-2">
+                        <span class="material-symbols-outlined text-secondary text-base mt-0.5">remove</span>
+                        <span><strong>Modelação Não-Invasiva:</strong> Atenuação das nodulações típicas sem cortes, sem anestesia e sem tempo de inatividade.</span>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <!-- Protocolo -->
+                  <div class="flex items-center gap-3 pt-2 text-on-surface-variant font-body-sm text-body-sm">
+                    <span class="material-symbols-outlined text-primary">clinical_notes</span>
+                    <span>Precedido de mapeamento médico e conduta nutricional anti-inflamatória.</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="pt-8 mt-6">
+                <a class="w-full inline-flex items-center justify-center gap-2 py-3.5 rounded-full bg-secondary hover:bg-on-secondary-container text-on-secondary font-label-md text-label-md uppercase tracking-wider transition-colors shadow" href="https://wa.me/5566999990000?text=Olá,%20tenho%20interesse%20no%20tratamento%20de%20Lipedema%20com%20Deep%20Slim" target="_blank">
+                  <span>Agendar Avaliação para Lipedema</span>
+                  <span class="material-symbols-outlined text-base">arrow_forward</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- BLOCO 2: CM SLIM (HIFEM & HIPERTROFIA) -->
+            <div class="bg-surface rounded-3xl p-8 lg:p-10 shadow-lg shadow-on-surface/5 flex flex-col justify-between relative overflow-hidden group">
+              <div class="absolute -right-16 -top-16 w-56 h-56 bg-primary-container/20 rounded-full blur-3xl pointer-events-none"></div>
+              <div>
+                <div class="flex items-center justify-between mb-6">
+                  <span class="px-4 py-1.5 rounded-full bg-primary/15 text-primary font-label-sm text-label-sm uppercase tracking-widest font-semibold">
+                    Estimulação Eletromagnética HIFEM
+                  </span>
+                  <span class="font-label-sm text-label-sm text-on-surface-variant font-mono">02 // PERFORMANCE</span>
+                </div>
+                <h3 class="font-headline-md text-headline-md text-on-surface font-serif">
+                  CM SLIM
+                </h3>
+                <p class="font-title-md text-title-md text-primary mt-1 font-medium">
+                  Construção de Massa Magra, Força Muscular &amp; Aceleração Metabólica
+                </p>
+                <div class="mt-6 space-y-4">
+                  <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                    Utiliza a tecnologia de campo eletromagnético focalizado de alta intensidade (HIFEM). Induz cerca de <strong>30.000 contrações musculares supramáximas</strong> em apenas 30 minutos de sessão — contrações inatingíveis por meio do treinamento voluntário convencional na academia.
+                  </p>
+                  
+                  <!-- Benefícios Clínicos CM Slim -->
+                  <div class="bg-surface-container-low p-5 rounded-2xl space-y-3 mt-6">
+                    <span class="font-label-sm text-label-sm text-on-surface uppercase tracking-wider font-bold flex items-center gap-2">
+                      <span class="material-symbols-outlined text-primary text-base">check_circle</span>
+                      Aplicações e Impacto Fisiológico
+                    </span>
+                    <ul class="space-y-2.5 font-body-sm text-body-sm text-on-surface-variant">
+                      <li class="flex items-start gap-2">
+                        <span class="material-symbols-outlined text-primary text-base mt-0.5">remove</span>
+                        <span><strong>Hipertrofia e Tonificação:</strong> Elevação e densificação de glúteos, abdômen definido, coxas e braços tonificados.</span>
+                      </li>
+                      <li class="flex items-start gap-2">
+                        <span class="material-symbols-outlined text-primary text-base mt-0.5">remove</span>
+                        <span><strong>Gasto Calórico e Metabolismo:</strong> O ganho de fibra muscular acelera a taxa metabólica basal, facilitando o emagrecimento.</span>
+                      </li>
+                      <li class="flex items-start gap-2">
+                        <span class="material-symbols-outlined text-primary text-base mt-0.5">remove</span>
+                        <span><strong>Estabilidade e Bomba Linfática:</strong> Fortalece a musculatura profunda adjacente, acelerando o retorno veno-linfático.</span>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <!-- Diferencial -->
+                  <div class="flex items-center gap-3 pt-2 text-on-surface-variant font-body-sm text-body-sm">
+                    <span class="material-symbols-outlined text-primary">fitness_center</span>
+                    <span>Sessões rápidas, indolores e aplicadas de forma confortável no consultório.</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="pt-8 mt-6">
+                <a class="w-full inline-flex items-center justify-center gap-2 py-3.5 rounded-full bg-primary hover:bg-secondary text-on-primary font-label-md text-label-md uppercase tracking-wider transition-colors shadow" href="https://wa.me/5566999990000?text=Olá,%20quero%20agendar%20sessões%20de%20CM%20Slim" target="_blank">
+                  <span>Agendar Sessão de CM Slim</span>
+                  <span class="material-symbols-outlined text-base">arrow_forward</span>
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- SOBRE A DRA. JULIE MENDES -->
+      <section class="w-full bg-surface-container-high py-20 lg:py-28" id="sobre">
+        <div class="max-w-7xl mx-auto px-6 lg:px-12">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+            
+            <!-- Portraits Gallery / Visual Collage -->
+            <div class="lg:col-span-5 relative">
+              <div class="relative grid grid-cols-2 gap-4">
+                <div class="rounded-3xl overflow-hidden shadow-xl aspect-[3/4] bg-surface">
+                  <img alt="Dra. Julie Mendes em consulta médica acolhedora" class="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC34sfpbm8dePXvQY0ACJYm_y5hJ4jxQGMzQ1TaHkrUhFOxArvKOo2DNh9MrRR1D3VQ4XsiN_AX-qAUPEyk3LzlW1ucc4i3LxEv-Y3vaZxiVxgyHgl0z-hdhiwq4kh5d8TSQMu5qTdjPmvcyDQjpu9ibOT3ksztHIweTDWosRKjCj-7rZYaVzYSVgKmQVcLgPX8Sr-P7CzgCfACsizpGHYCVIf2hfDJp6QQh6Ctdzk-fLz4fetWp8HYxJQAwOupGsj7PSA"/>
+                </div>
+                <div class="rounded-3xl overflow-hidden shadow-xl aspect-[3/4] bg-surface mt-8">
+                  <img alt="Dra. Julie Mendes - Olita Consultório Médico" class="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuADnHczyDBPCP_-XFKnHONCeJvpbPlTaNmDNZbFDqR-68PFr_JHzmwPenlD1yEowWLhKuj7EmyzslpMoIIo2cFBkzyBgCTay6owLoNwtWZC8E7jduec2RBguN7jMOTI0o540w_oEHF0vx5xQLqncfV-1nbD6ur7WdsxU_cF6dg7Zpd0NF_j4oco4KGrPwI3UPpx-SXfzVaTf8OQhIgjdfwHMhkal4E5EiRxn9gYKR3GePkwcrpg2I35rmPVN-ps6pGj-iA"/>
+                </div>
+              </div>
+              <!-- Warm accent stamp -->
+              <div class="absolute -bottom-5 right-8 bg-surface p-4 rounded-2xl shadow-lg flex items-center gap-3">
+                <span class="material-symbols-outlined text-primary text-2xl">favorite</span>
+                <div class="text-left">
+                  <p class="font-label-sm text-label-sm text-on-surface uppercase font-bold tracking-wider">Acolhimento Real</p>
+                  <p class="font-body-sm text-body-sm text-on-surface-variant text-xs">Escuta atenta e individualizada</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Biography Content -->
+            <div class="lg:col-span-7 flex flex-col space-y-6">
+              <div class="inline-flex items-center gap-2">
+                <span class="w-2 h-2 rounded-full bg-primary"></span>
+                <span class="font-label-md text-label-md text-primary uppercase tracking-[0.2em] font-semibold">Trajetória e Filosofia</span>
+              </div>
+              <h2 class="font-headline-lg text-headline-lg lg:text-display-lg text-on-surface font-serif leading-tight">
+                Dra. Julie Mendes
+              </h2>
+              <p class="font-title-md text-title-md text-secondary font-medium -mt-2">
+                Médica • Atuação Focada em Endocrinologia, Metabologia e Tecnologias
+              </p>
+              <p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+                "Acredito profundamente que a medicina contemporânea deve superar o modelo fragmentado. Pacientes com alterações metabólicas, cansaço crônico ou queixas corporais como o Lipedema necessitam de uma investigação ampla: desde o exame hormonal minucioso até a prescrição de protocolos físicos que resgatam a qualidade de vida e a autoestima."
+              </p>
+              <div class="space-y-4 pt-2">
+                <div class="flex items-start gap-4">
+                  <div class="w-8 h-8 rounded-full bg-surface flex items-center justify-center text-primary flex-shrink-0 shadow-sm mt-1">
+                    <span class="material-symbols-outlined text-base">vital_signs</span>
+                  </div>
+                  <div>
+                    <h4 class="font-title-md text-title-md text-on-surface font-semibold">Visão Metabólica Integrada</h4>
+                    <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                      Avaliação que conecta tireoide, sensibilidade insulínica, inflamação crônica de baixo grau e equilíbrio nutricional.
+                    </p>
+                  </div>
+                </div>
+                <div class="flex items-start gap-4">
+                  <div class="w-8 h-8 rounded-full bg-surface flex items-center justify-center text-primary flex-shrink-0 shadow-sm mt-1">
+                    <span class="material-symbols-outlined text-base">verified_user</span>
+                  </div>
+                  <div>
+                    <h4 class="font-title-md text-title-md text-on-surface font-semibold">Segurança &amp; Procedimento Ético</h4>
+                    <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                      Cada indicação é embasada em literatura científica atual e pautada no respeito aos limites biológicos do paciente.
+                    </p>
+                  </div>
+                </div>
+                <div class="flex items-start gap-4">
+                  <div class="w-8 h-8 rounded-full bg-surface flex items-center justify-center text-primary flex-shrink-0 shadow-sm mt-1">
+                    <span class="material-symbols-outlined text-base">psychology</span>
+                  </div>
+                  <div>
+                    <h4 class="font-title-md text-title-md text-on-surface font-semibold">Empatia e Acompanhamento Contínuo</h4>
+                    <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                      Uma relação médica de parceria onde o paciente é compreendido em sua rotina, dores e objetivos reais.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="pt-4 flex flex-wrap items-center gap-6">
+                <a class="inline-flex items-center gap-3 px-8 py-3.5 rounded-full bg-secondary hover:bg-on-secondary-container text-on-secondary font-label-md text-label-md uppercase tracking-wider transition-colors shadow-md" href="https://wa.me/5566999990000?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta%20com%20a%20Dra.%20Julie%20Mendes" target="_blank">
+                  <span class="material-symbols-outlined text-base">chat</span>
+                  <span>Conversar com a Equipe</span>
+                </a>
+                <div class="text-on-surface-variant font-body-sm text-body-sm">
+                  <span>Sinop - MT • Atendimentos Presenciais</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- ESPECIALIDADES MÉDICAS & TERAPIAS INTEGRADAS -->
+      <section class="w-full bg-surface py-20 lg:py-28" id="especialidades">
+        <div class="max-w-7xl mx-auto px-6 lg:px-12">
+          <div class="text-center max-w-3xl mx-auto mb-16">
+            <span class="font-label-md text-label-md text-primary uppercase tracking-[0.2em] font-semibold">Cuidado Completo</span>
+            <h2 class="font-headline-lg text-headline-lg lg:text-display-lg text-on-surface mt-2 font-serif">
+              Especialidades &amp; Terapias Médicas
+            </h2>
+            <p class="font-body-lg text-body-lg text-on-surface-variant mt-4 leading-relaxed">
+              Serviços planejados sob o mais rigoroso raciocínio clínico para promover saúde funcional, longevidade e equilíbrio estético.
+            </p>
+          </div>
+          
+          <!-- Bento Cards Grid -->
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+            <!-- Card 1: Lipedema -->
+            <div class="bg-surface-container-low p-8 rounded-3xl shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">
+              <div>
+                <div class="w-12 h-12 rounded-2xl bg-secondary/15 text-secondary flex items-center justify-center mb-6">
+                  <span class="material-symbols-outlined text-2xl">healing</span>
+                </div>
+                <h3 class="font-title-md text-title-md text-on-surface font-semibold group-hover:text-secondary transition-colors">
+                  Manejo e Tratamento do Lipedema
+                </h3>
+                <p class="font-body-sm text-body-sm text-on-surface-variant mt-3 leading-relaxed">
+                  Diagnóstico clínico diferencial, desinflamação sistêmica, modulação metabólica e aplicação de Deep Slim e CM Slim para diminuição de dores e remodelamento sem cirurgia.
+                </p>
+              </div>
+              <div class="pt-6 mt-6 flex items-center text-secondary font-label-sm text-label-sm uppercase tracking-wider font-semibold">
+                <span>Protocolo Integrado</span>
+                <span class="material-symbols-outlined text-base ml-1">chevron_right</span>
+              </div>
+            </div>
+
+            <!-- Card 2: Endocrinologia & Metabologia -->
+            <div class="bg-surface-container-low p-8 rounded-3xl shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">
+              <div>
+                <div class="w-12 h-12 rounded-2xl bg-primary/15 text-primary flex items-center justify-center mb-6">
+                  <span class="material-symbols-outlined text-2xl">metabolism</span>
+                </div>
+                <h3 class="font-title-md text-title-md text-on-surface font-semibold group-hover:text-primary transition-colors">
+                  Endocrinologia &amp; Metabologia
+                </h3>
+                <p class="font-body-sm text-body-sm text-on-surface-variant mt-3 leading-relaxed">
+                  Tratamento individualizado de disfunções da tireoide (hipo/hipertireoidismo, Hashimoto), diabetes, resistência à insulina, síndrome metabólica e equilíbrio hormonal integral.
+                </p>
+              </div>
+              <div class="pt-6 mt-6 flex items-center text-primary font-label-sm text-label-sm uppercase tracking-wider font-semibold">
+                <span>Avaliação Laboratorial</span>
+                <span class="material-symbols-outlined text-base ml-1">chevron_right</span>
+              </div>
+            </div>
+
+            <!-- Card 3: Emagrecimento Consciente -->
+            <div class="bg-surface-container-low p-8 rounded-3xl shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">
+              <div>
+                <div class="w-12 h-12 rounded-2xl bg-tertiary/15 text-tertiary flex items-center justify-center mb-6">
+                  <span class="material-symbols-outlined text-2xl">scale</span>
+                </div>
+                <h3 class="font-title-md text-title-md text-on-surface font-semibold group-hover:text-tertiary transition-colors">
+                  Emagrecimento Consciente &amp; Composição
+                </h3>
+                <p class="font-body-sm text-body-sm text-on-surface-variant mt-3 leading-relaxed">
+                  Preservação de massa magra, perda seletiva de gordura visceral e subcutânea, ajuste de saciedade e quebra do efeito sanfona com embasamento médico e bioimpedância.
+                </p>
+              </div>
+              <div class="pt-6 mt-6 flex items-center text-tertiary font-label-sm text-label-sm uppercase tracking-wider font-semibold">
+                <span>Acompanhamento Próximo</span>
+                <span class="material-symbols-outlined text-base ml-1">chevron_right</span>
+              </div>
+            </div>
+
+            <!-- Card 4: Soroterapia -->
+            <div class="bg-surface-container-low p-8 rounded-3xl shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">
+              <div>
+                <div class="w-12 h-12 rounded-2xl bg-primary/15 text-primary flex items-center justify-center mb-6">
+                  <span class="material-symbols-outlined text-2xl">vaccines</span>
+                </div>
+                <h3 class="font-title-md text-title-md text-on-surface font-semibold group-hover:text-primary transition-colors">
+                  Soroterapia &amp; Injetáveis Nutracêuticos
+                </h3>
+                <p class="font-body-sm text-body-sm text-on-surface-variant mt-3 leading-relaxed">
+                  Reposição intravenosa e intramuscular de vitaminas, minerais, antioxidantes e cofatores metabólicos com 100% de biodisponibilidade para disposição e suporte imune.
+                </p>
+              </div>
+              <div class="pt-6 mt-6 flex items-center text-primary font-label-sm text-label-sm uppercase tracking-wider font-semibold">
+                <span>Infusões Personalizadas</span>
+                <span class="material-symbols-outlined text-base ml-1">chevron_right</span>
+              </div>
+            </div>
+
+            <!-- Card 5: Longevidade Saudável -->
+            <div class="bg-surface-container-low p-8 rounded-3xl shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">
+              <div>
+                <div class="w-12 h-12 rounded-2xl bg-secondary/15 text-secondary flex items-center justify-center mb-6">
+                  <span class="material-symbols-outlined text-2xl">hourglass_bottom</span>
+                </div>
+                <h3 class="font-title-md text-title-md text-on-surface font-semibold group-hover:text-secondary transition-colors">
+                  Longevidade &amp; Check-up Preventivo
+                </h3>
+                <p class="font-body-sm text-body-sm text-on-surface-variant mt-3 leading-relaxed">
+                  Mapeamento de biomarcadores de senescência celular, controle do estresse oxidativo, saúde cardiovascular e preservação de autonomia física a longo prazo.
+                </p>
+              </div>
+              <div class="pt-6 mt-6 flex items-center text-secondary font-label-sm text-label-sm uppercase tracking-wider font-semibold">
+                <span>Prevenção Ativa</span>
+                <span class="material-symbols-outlined text-base ml-1">chevron_right</span>
+              </div>
+            </div>
+
+            <!-- Card 6: Tecnologias Não Invasivas -->
+            <div class="bg-surface-container-low p-8 rounded-3xl shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">
+              <div>
+                <div class="w-12 h-12 rounded-2xl bg-primary/15 text-primary flex items-center justify-center mb-6">
+                  <span class="material-symbols-outlined text-2xl">bolt</span>
+                </div>
+                <h3 class="font-title-md text-title-md text-on-surface font-semibold group-hover:text-primary transition-colors">
+                  CM Slim &amp; Deep Slim Protocol
+                </h3>
+                <p class="font-body-sm text-body-sm text-on-surface-variant mt-3 leading-relaxed">
+                  Programação de sessões focadas em tônus de glúteos e abdômen, alívio de peso em membros inferiores e regeneração celular com tecnologia não invasiva de ponta.
+                </p>
+              </div>
+              <div class="pt-6 mt-6 flex items-center text-primary font-label-sm text-label-sm uppercase tracking-wider font-semibold">
+                <span>Padrão Ouro Mundial</span>
+                <span class="material-symbols-outlined text-base ml-1">chevron_right</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- ESPAÇO OLITA & EXPERIÊNCIA SENSORIAL -->
+      <section class="w-full bg-surface-container py-20 lg:py-28" id="espaco">
+        <div class="max-w-7xl mx-auto px-6 lg:px-12">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+            
+            <!-- Text Column -->
+            <div class="lg:col-span-6 flex flex-col space-y-6">
+              <span class="font-label-md text-label-md text-primary uppercase tracking-[0.2em] font-semibold">Ambiente &amp; Hospitalidade</span>
+              <h2 class="font-headline-lg text-headline-lg lg:text-display-lg text-on-surface font-serif leading-tight">
+                Um refúgio de tranquilidade projetado para o seu bem-estar.
+              </h2>
+              <p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+                No Olita Consultório Médico, cada detalhe foi concebido para transformar a consulta médica em um momento de pausa, escuta e recarregar de energias. 
+              </p>
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 pt-4">
+                <div class="flex items-start gap-3">
+                  <span class="material-symbols-outlined text-primary text-xl mt-1">schedule</span>
+                  <div>
+                    <h4 class="font-title-md text-title-md text-on-surface font-medium">Pontualidade Rigorosa</h4>
+                    <p class="font-body-sm text-body-sm text-on-surface-variant text-xs mt-0.5">Respeito irrestrito ao seu tempo com agendamento espaçado.</p>
+                  </div>
+                </div>
+                <div class="flex items-start gap-3">
+                  <span class="material-symbols-outlined text-primary text-xl mt-1">lock</span>
+                  <div>
+                    <h4 class="font-title-md text-title-md text-on-surface font-medium">Privacidade e Sigilo</h4>
+                    <p class="font-body-sm text-body-sm text-on-surface-variant text-xs mt-0.5">Ambiente intimista e exclusivo para acolher suas necessidades.</p>
+                  </div>
+                </div>
+                <div class="flex items-start gap-3">
+                  <span class="material-symbols-outlined text-primary text-xl mt-1">volume_off</span>
+                  <div>
+                    <h4 class="font-title-md text-title-md text-on-surface font-medium">Conforto Acústico</h4>
+                    <p class="font-body-sm text-body-sm text-on-surface-variant text-xs mt-0.5">Isolamento sonoro suave, iluminação quente e aromas terapêuticos.</p>
+                  </div>
+                </div>
+                <div class="flex items-start gap-3">
+                  <span class="material-symbols-outlined text-primary text-xl mt-1">chair</span>
+                  <div>
+                    <h4 class="font-title-md text-title-md text-on-surface font-medium">Equipamentos Próprios</h4>
+                    <p class="font-body-sm text-body-sm text-on-surface-variant text-xs mt-0.5">Tecnologias corporais residentes sem necessidade de locação.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="pt-4">
+                <a class="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-primary hover:bg-secondary text-on-primary font-label-md text-label-md uppercase tracking-wider transition-colors shadow" href="https://wa.me/5566999990000?text=Olá,%20gostaria%20de%20conhecer%20o%20espaço%20Olita" target="_blank">
+                  <span>Agendar Minha Visita</span>
+                  <span class="material-symbols-outlined text-base">arrow_outward</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Interior Photography Column -->
+            <div class="lg:col-span-6 relative">
+              <div class="rounded-3xl overflow-hidden shadow-2xl bg-surface aspect-[4/3]">
+                <img alt="Interior do Olita Consultório Médico da Dra Julie Mendes em Sinop MT" class="w-full h-full object-cover hover:scale-105 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida/AEtjO1UL7No421ZHfCLk1paQD2E9cQCAaWYUOcn0Ptl__VbpyCfO1LfBI9EN00M_UN_s12-LPWe08MwBibtZLsPCIqnmnC9V1p9jyDKhw1WKGs8LvppycHBL7Lm2K4MsZfVsZ7FpdEVitPPTnNBNtoZBRFp81wPzctBhG7PJ4Rm1y5RLnKiD6Qqn8clEl5fUhB8VG2mTSmwFkOc9mumySIRDfWWZ-jqa1YOea2120gP3CtZjCGbKExabLO0QKrUV"/>
+              </div>
+              <div class="absolute -bottom-6 -right-4 sm:right-6 bg-surface-bright/95 backdrop-blur-md p-5 rounded-2xl shadow-xl max-w-xs">
+                <span class="font-label-sm text-label-sm text-primary uppercase font-bold tracking-wider">Espaço Exclusivo</span>
+                <p class="font-body-sm text-body-sm text-on-surface-variant mt-1 leading-snug">
+                  Localização nobre em Sinop - MT com estacionamento privativo e recepção dedicada.
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ - PERGUNTAS FREQUENTES -->
+      <section class="w-full bg-surface-bright py-20 lg:py-28" id="duvidas">
+        <div class="max-w-4xl mx-auto px-6 lg:px-12">
+          <div class="text-center mb-16">
+            <span class="font-label-md text-label-md text-secondary uppercase tracking-[0.2em] font-semibold">Tire Suas Dúvidas</span>
+            <h2 class="font-headline-lg text-headline-lg lg:text-display-lg text-on-surface mt-2 font-serif">
+              Perguntas Frequentes
+            </h2>
+            <p class="font-body-md text-body-md text-on-surface-variant mt-3">
+              Informações claras e diretas sobre os procedimentos, consultas e protocolos.
+            </p>
+          </div>
+          <div class="space-y-4" id="faq-accordion">
+            
+            <!-- FAQ 1 -->
+            <div class="bg-surface rounded-2xl shadow-sm overflow-hidden transition-all duration-300">
+              <button class="w-full p-6 text-left flex items-center justify-between gap-4 focus:outline-none" onclick="toggleFaq(this)">
+                <span class="font-title-md text-title-md text-on-surface font-medium">O que é o Lipedema e como o Deep Slim atua no tratamento?</span>
+                <span class="material-symbols-outlined text-primary transform transition-transform duration-300 icon-faq">expand_more</span>
+              </button>
+              <div class="px-6 pb-6 text-on-surface-variant font-body-md text-body-md leading-relaxed hidden faq-content">
+                O Lipedema é uma doença inflamatória crônica do tecido adiposo que afeta principalmente mulheres, caracterizada por acúmulo desproporcional de gordura em pernas e braços, dor à pressão e sensação de peso. O <strong>Deep Slim</strong> atua emitindo ondas de ultrassom focado de alta profundidade que fragmentam o tecido fibrótico e reduzem a inflamação dos adipócitos, melhorando o retorno linfático e aliviando a dor sem necessidade de corte ou cânula cirúrgica.
+              </div>
+            </div>
+
+            <!-- FAQ 2 -->
+            <div class="bg-surface rounded-2xl shadow-sm overflow-hidden transition-all duration-300">
+              <button class="w-full p-6 text-left flex items-center justify-between gap-4 focus:outline-none" onclick="toggleFaq(this)">
+                <span class="font-title-md text-title-md text-on-surface font-medium">Como funciona uma sessão de CM Slim e para quem é indicado?</span>
+                <span class="material-symbols-outlined text-primary transform transition-transform duration-300 icon-faq">expand_more</span>
+              </button>
+              <div class="px-6 pb-6 text-on-surface-variant font-body-md text-body-md leading-relaxed hidden faq-content">
+                O <strong>CM Slim</strong> utiliza campo eletromagnético focalizado de alta intensidade (HIFEM) que estimula os neurônios motores, desencadeando até 30.000 contrações musculares supramáximas em uma única sessão de 30 minutos. É indicado para qualquer pessoa que deseja tonificar glúteos, fortalecer o abdômen e o assoalho pélvico, aumentar o gasto calórico ou auxiliar na reabilitação e drenagem no Lipedema.
+              </div>
+            </div>
+
+            <!-- FAQ 3 -->
+            <div class="bg-surface rounded-2xl shadow-sm overflow-hidden transition-all duration-300">
+              <button class="w-full p-6 text-left flex items-center justify-between gap-4 focus:outline-none" onclick="toggleFaq(this)">
+                <span class="font-title-md text-title-md text-on-surface font-medium">Posso associar o CM Slim com o tratamento metabólico e de emagrecimento?</span>
+                <span class="material-symbols-outlined text-primary transform transition-transform duration-300 icon-faq">expand_more</span>
+              </button>
+              <div class="px-6 pb-6 text-on-surface-variant font-body-md text-body-md leading-relaxed hidden faq-content">
+                Sim! Essa associação é um dos maiores diferenciais do Olita. Durante o emagrecimento, a perda inadvertida de massa muscular costuma reduzir o metabolismo basal. O CM Slim garante a preservação e o estímulo da massa magra, otimizando a sensibilidade à insulina e acelerando a queima de gordura visceral.
+              </div>
+            </div>
+
+            <!-- FAQ 4 -->
+            <div class="bg-surface rounded-2xl shadow-sm overflow-hidden transition-all duration-300">
+              <button class="w-full p-6 text-left flex items-center justify-between gap-4 focus:outline-none" onclick="toggleFaq(this)">
+                <span class="font-title-md text-title-md text-on-surface font-medium">Como é a primeira consulta de avaliação médica com a Dra. Julie?</span>
+                <span class="material-symbols-outlined text-primary transform transition-transform duration-300 icon-faq">expand_more</span>
+              </button>
+              <div class="px-6 pb-6 text-on-surface-variant font-body-md text-body-md leading-relaxed hidden faq-content">
+                A consulta é detalhada e individualizada. A Dra. Julie realiza anamnese completa, exame físico, análise minuciosa de exames de sangue hormonais e metabólicos, bioimpedância e, se indicado, exame palpatório para diagnóstico de Lipedema. A partir disso, constrói-se um plano terapêutico exclusivo.
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA DE AGENDAMENTO & CONTATO DIRETO -->
+      <section class="w-full bg-surface-container-high py-20 lg:py-24 relative overflow-hidden" id="localizacao">
+        <div class="max-w-5xl mx-auto px-6 lg:px-12 text-center relative z-10">
+          <span class="font-label-md text-label-md text-secondary uppercase tracking-[0.25em] font-semibold">Dê o Primeiro Passo</span>
+          <h2 class="font-headline-lg text-headline-lg lg:text-display-lg text-on-surface font-serif mt-3">
+            Pronta para cuidar da sua saúde e do seu corpo com excelência médica?
+          </h2>
+          <p class="font-body-lg text-body-lg text-on-surface-variant mt-4 max-w-2xl mx-auto leading-relaxed">
+            Agende sua consulta ou avaliação corporal com a Dra. Julie Mendes. Nossa recepção está pronta para acolher suas dúvidas e indicar os melhores horários disponíveis.
+          </p>
+          <div class="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
+            <a class="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-10 py-4 rounded-full bg-secondary hover:bg-on-secondary-container text-on-secondary font-label-md text-label-md uppercase tracking-wider shadow-lg shadow-secondary/25 transition-all duration-300 transform hover:-translate-y-0.5" href="https://wa.me/5566999990000?text=Olá,%20gostaria%20de%20agendar%20um%20horário%20no%20Consultório%20Olita" target="_blank">
+              <span class="material-symbols-outlined text-xl">chat</span>
+              <span>Falar Agora no WhatsApp</span>
+            </a>
+            <a class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full bg-surface text-primary hover:bg-surface-container font-label-md text-label-md uppercase tracking-wider shadow-sm transition-all duration-300" href="tel:+5566999990000">
+              <span class="material-symbols-outlined text-lg">call</span>
+              <span>Ligar para Recepção</span>
+            </a>
+          </div>
+          
+          <!-- Trust highlights strip -->
+          <div class="mt-14 pt-8 border-t border-primary/10 grid grid-cols-2 sm:grid-cols-4 gap-6 text-on-surface-variant">
+            <div class="flex flex-col items-center">
+              <span class="material-symbols-outlined text-primary mb-1">location_on</span>
+              <span class="font-label-sm text-label-sm font-semibold text-on-surface">Sinop - MT</span>
+              <span class="text-xs">Edifício Prime</span>
+            </div>
+            <div class="flex flex-col items-center">
+              <span class="material-symbols-outlined text-primary mb-1">local_parking</span>
+              <span class="font-label-sm text-label-sm font-semibold text-on-surface">Estacionamento</span>
+              <span class="text-xs">Fácil acesso</span>
+            </div>
+            <div class="flex flex-col items-center">
+              <span class="material-symbols-outlined text-primary mb-1">lock</span>
+              <span class="font-label-sm text-label-sm font-semibold text-on-surface">Sigilo Médico</span>
+              <span class="text-xs">Privacidade total</span>
+            </div>
+            <div class="flex flex-col items-center">
+              <span class="material-symbols-outlined text-primary mb-1">calendar_today</span>
+              <span class="font-label-sm text-label-sm font-semibold text-on-surface">Atendimento</span>
+              <span class="text-xs">Com hora marcada</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="w-full bg-surface-container-low text-on-surface py-16 shadow-[0_-1px_12px_rgba(46,38,35,0.03)]">
+    <div class="max-w-7xl mx-auto px-6 lg:px-12">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 pb-12">
+        <div class="flex flex-col gap-4">
+          <div class="flex items-center gap-3">
+            <img alt="Olita Consultório Médico" class="w-12 h-12 rounded-full object-cover shadow-[0_2px_8px_rgba(46,38,35,0.08)]" src="https://lh3.googleusercontent.com/aida/AEtjO1XR6gUMTaySDVJoudOo8ULgjNT_4O_KpkKxZ14Dvae9OJw7f1GO3Vdmp0sF0zL46778qrIa1xA9A9xm7Ja75Cnw2cBSt5kIJJzucBq-ihO-six9m3KsErhn94YSutXHOR2xZUfD6Fo73Bo0XJ5OryzPC4LNxac0Loz8Gm4jc2N1TlRXho76PtqYilUyfteX3fRYz3qC-NcavkpB314eOBs-Iqj7zyzRlz3sR9tGCAB2WF4q_DqO3NjTaAmYV9lblzwEJskhlE-WaPg"/>
+            <div class="flex flex-col">
+              <span class="font-headline-sm text-headline-sm text-primary">Olita</span>
+              <span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Consultório Médico</span>
+            </div>
+          </div>
+          <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Medicina estética e metabologia com abordagem acolhedora, discreta e fundamentada no mais rigoroso critério científico.
+          </p>
+          <div class="flex items-center gap-3 pt-2">
+            <a aria-label="Instagram" class="w-9 h-9 rounded-full bg-surface flex items-center justify-center text-primary hover:bg-primary-container hover:text-on-primary-container transition-all" href="#">
+              <span class="material-symbols-outlined text-lg">photo_camera</span>
+            </a>
+            <a aria-label="WhatsApp" class="w-9 h-9 rounded-full bg-surface flex items-center justify-center text-primary hover:bg-primary-container hover:text-on-primary-container transition-all" href="https://wa.me/5566999990000" target="_blank">
+              <span class="material-symbols-outlined text-lg">call</span>
+            </a>
+            <a aria-label="E-mail de Contato" class="w-9 h-9 rounded-full bg-surface flex items-center justify-center text-primary hover:bg-primary-container hover:text-on-primary-container transition-all" href="mailto:contato@olitamed.com.br">
+              <span class="material-symbols-outlined text-lg">mail</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="flex flex-col gap-3">
+          <span class="font-title-md text-title-md text-primary mb-1">Áreas de Atuação</span>
+          <ul class="flex flex-col gap-2 font-body-sm text-body-sm text-on-surface-variant">
+            <li><a href="#tecnologias" class="hover:text-primary transition-colors">CM Slim (Definição &amp; Hipertrofia)</a></li>
+            <li><a href="#tecnologias" class="hover:text-primary transition-colors">Deep Slim Lipedema</a></li>
+            <li><a href="#especialidades" class="hover:text-primary transition-colors">Endocrinologia Integrada</a></li>
+            <li><a href="#especialidades" class="hover:text-primary transition-colors">Metabologia Avançada</a></li>
+            <li><a href="#especialidades" class="hover:text-primary transition-colors">Soroterapia &amp; Otimização Nutricional</a></li>
+          </ul>
+        </div>
+
+        <div class="flex flex-col gap-3">
+          <span class="font-title-md text-title-md text-primary mb-1">Localização &amp; Atendimento</span>
+          <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Consultório Olita<br/>
+            Edifício Medical Center Prime<br/>
+            Sinop - MT<br/>
+            Atendimento com hora marcada e total privacidade.
+          </p>
+          <div class="flex items-center gap-2 pt-2 text-on-surface-variant font-body-sm text-body-sm">
+            <span class="material-symbols-outlined text-primary text-base">location_on</span>
+            <span>Estacionamento privativo com manobrista</span>
+          </div>
+        </div>
+
+        <div class="flex flex-col gap-3">
+          <span class="font-title-md text-title-md text-primary mb-1">Responsabilidade Técnica</span>
+          <div class="bg-surface p-4 rounded-xl shadow-[0_2px_12px_rgba(46,38,35,0.03)]">
+            <p class="font-title-md text-title-md text-on-surface leading-tight">Dra. Julie Mendes</p>
+            <p class="font-label-sm text-label-sm text-on-surface-variant mt-1 uppercase tracking-wider">Médica | CRM/MT • RQE Ativo</p>
+            <p class="font-body-sm text-body-sm text-on-surface-variant mt-3 text-xs leading-relaxed">
+              Membro da Sociedade Brasileira de Endocrinologia e Metabologia. Procedimentos e protocolos estéticos com embasamento médico.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="pt-8 mt-2 flex flex-col md:flex-row items-center justify-between gap-4 text-center md:text-left border-t border-outline-variant/30">
+        <p class="font-body-sm text-body-sm text-on-surface-variant text-xs">
+          © 2025 Olita Consultório Médico. Todos os direitos reservados. Os resultados podem variar conforme características clínicas individuais.
+        </p>
+        <p class="font-label-sm text-label-sm text-on-surface-variant tracking-wider uppercase text-xs">
+          Desenvolvido para Saúde, Discrição e Longevidade
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JAVASCRIPT INTERACTIONS -->
+  <script>
+    // FAQ Accordion Toggle
+    function toggleFaq(button) {
+      const content = button.nextElementSibling;
+      const icon = button.querySelector('.icon-faq');
+      const isOpen = !content.classList.contains('hidden');
+      
+      // Close all faqs in container
+      document.querySelectorAll('#faq-accordion .faq-content').forEach(el => el.classList.add('hidden'));
+      document.querySelectorAll('#faq-accordion .icon-faq').forEach(el => el.classList.remove('rotate-180'));
+      
+      if (!isOpen) {
+        content.classList.remove('hidden');
+        icon.classList.add('rotate-180');
+      }
+    }
+
+    // Mobile Menu Toggle
+    function toggleMobileMenu() {
+      const menu = document.getElementById('mobile-menu');
+      if (menu) {
+        menu.classList.toggle('hidden');
+      }
+    }
+
+    document.getElementById('mobile-menu-btn')?.addEventListener('click', toggleMobileMenu);
+  </script>
+</body>
+</html>
